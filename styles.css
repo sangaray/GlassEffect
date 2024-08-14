@@ -9,3 +9,29 @@ div {
 	padding: 0;
 	font-family: sans-serif;
 }
+
+.container {
+	position: relative;
+}
+
+.circles {
+	width: 350px;
+	height: 350px;
+	border-radius: 50%;
+	margin: auto;
+	position: absolute;
+}
+
+.circle1 {
+	background: linear-gradient(-45deg, #ff0000, #ffa500, #ffff00);
+	top: 0;
+	left: 0;
+	transform: translate(80%, -10%);
+}
+
+.circle2 {
+	background: linear-gradient(45deg, #4654ef, #00ffff, #a4eeee);
+	bottom: 0;
+	right: 0;
+	transform: translate(-60%, 170%);
+}
