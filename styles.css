@@ -1,3 +1,4 @@
+/* Configuraciones iniciales */
 * {
 	box-sizing: border-box;
 	background-color: #111;
@@ -10,8 +11,15 @@ div {
 	font-family: sans-serif;
 }
 
+body {
+	width: 100dvw;
+	height: 100dvh;
+}
+
+/* Estilando los círculos del fondo */
 .container {
 	position: relative;
+	margin: auto;
 }
 
 .circles {
@@ -33,5 +41,16 @@ div {
 	background: linear-gradient(45deg, #4654ef, #00ffff, #a4eeee);
 	bottom: 0;
 	right: 0;
-	transform: translate(-60%, 170%);
+	transform: translate(-80%, 170%);
+}
+
+/* Estilando la glass-card */
+.glass-container {
+	position: absolute;
+	background-color: #ffa500;
+	width: 300px;
+	height: 300px;
+	top: 0;
+	left: 0;
+	transform: translate(160%, 30%);
 }
