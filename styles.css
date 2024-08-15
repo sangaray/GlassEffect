@@ -19,36 +19,39 @@ p {
 }
 
 body {
-	width: 100dvw;
+	width: 100vw;
 	height: 100dvh;
+	overflow: hidden;
 }
 
 /* Estilando los círculos del fondo */
 .container {
 	position: relative;
 	margin: auto;
+	width: 800px;
+	height: 600px;
 }
 
 .circles {
-	width: 350px;
-	height: 350px;
+	width: 320px;
+	height: 320px;
 	border-radius: 50%;
 	margin: auto;
-	position: absolute;
+	position: relative;
 }
 
 .circle1 {
+	position: absolute;
 	background: linear-gradient(-45deg, #ff0000, #ffa500, #ffff00);
-	top: 0;
-	left: 0;
-	transform: translate(80%, -10%);
+	top: -20px;
+	left: 50px;
 }
 
 .circle2 {
+	position: absolute;
 	background: linear-gradient(45deg, #4654ef, #00ffff, #a4eeee);
 	bottom: 0;
-	right: 0;
-	transform: translate(-80%, 170%);
+	right: 50px;
 }
 
 /* Estilando la glass-card */
@@ -56,9 +59,8 @@ body {
 	position: absolute;
 	background: rgba(255, 255, 255, 0.2);
 	width: 300px;
-	top: 0;
-	left: 0;
-	transform: translate(140%, 10%);
+	top: 50px;
+	left: 250px;
 	border-radius: 15px;
 	backdrop-filter: blur(10px);
 	-webkit-backdrop-filter: blur(10px);
